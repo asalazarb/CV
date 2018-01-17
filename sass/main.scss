@@ -1,0 +1,126 @@
+@import 'timeline';
+
+$dark-gray: #201f25;
+$white: #ffffff;
+$light-gray: #f1f1f1;
+$mint: #46cc92;
+$light-mint: #75ddb7;
+
+
+
+
+.row-padding{
+  padding-left: 5.5em;
+}
+
+.particles-js-canvas-el{
+  z-index: 2;
+  position: relative;
+  top: -260px;
+}
+
+.dark-gray {
+  background-color: $dark-gray;
+}
+
+.white {
+  background-color: $white;
+}
+
+.mint {
+  background-color: $mint;
+}
+
+.big-div{
+  height: 330px;
+  padding: 40px;
+  margin-bottom: 2em;
+}
+
+
+.centered-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.main-content{
+  background-color: $light-gray;
+}
+
+.right-col{
+  background-color: $light-gray
+}
+
+.border-bottom{
+  //border-bottom: 15px solid $dark-gray;
+}
+
+.text-white{
+  color: $light-gray;
+}
+
+.text-light-mint{
+  color: $light-mint;
+}
+
+.text{
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-big{
+  font-size: 5em;
+  border-bottom: 5px solid $mint;
+  margin-bottom: 0.4em;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.gif-bg{
+  //display: block;
+  background: $dark-gray url(images/giphy.gif) no-repeat center center;
+}
+
+.underline{
+  border-bottom: 5px solid $dark-gray;
+}
+
+.separated-text{
+  padding-top: 1em;
+}
+
+.end{
+  background-color: $dark-gray;
+}
+
+.icon{
+  height: 22px;
+  width: 22px;
+}
+
+.row-main{
+  padding-top: 1em;
+}
+
+.progress-bar{
+  background-color: $light-mint;
+}
+
+
+
+body{
+  background-color: #f1f1f1;
+
+}
+
+
+
+@media (max-width:460px){
+  body{
+    display: none;
+  }
+}
