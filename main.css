@@ -103,6 +103,9 @@ body {
     .steps-description {
       text-align: center; } }
 
+.dark-text {
+  color: #201f25; }
+
 .row-padding {
   padding-left: 5.5em; }
 
